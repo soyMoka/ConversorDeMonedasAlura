@@ -1,27 +1,25 @@
 
 
-import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpResponse;
 import java.net.http.HttpRequest;
 import java.net.http.HttpClient;
 
 public class Api {
-        private String apiUrl="https://v6.exchangerate-api.com/v6/";
 
-        private String apiKey="e9394f00432ddeb7692ea5af";
-
-        String getQuery(String base ) {
-            return apiUrl + apiKey + "/latest/" + base;
+    String getQuery() {
+            String apiUrl = "https://v6.exchangerate-api.com/v6/";
+        String apiKey = "e9394f00432ddeb7692ea5af";
+        return apiUrl + apiKey + "/latest/" + "USD";
         }
         //https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD
 
-        String getData() throws IOException, InterruptedException {
+        String getData(){
             try{
 
                 HttpClient client = HttpClient.newHttpClient();
                 HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create(this.getQuery("USD")))
+                    .uri(URI.create(this.getQuery()))
                     .build();
 
                 HttpResponse<String> response = client

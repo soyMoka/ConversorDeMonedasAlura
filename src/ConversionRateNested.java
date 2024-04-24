@@ -11,7 +11,7 @@ public class ConversionRateNested {
                                     float BOB,
                                     float BRL,
                                     float CLP,
-                                    float COP){
+                                    float COP) {
             this.USD = USD;
             this.ARS = ARS;
             this.BOB = BOB;

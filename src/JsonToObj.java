@@ -6,9 +6,7 @@ public class JsonToObj {
 
 
     public static CurencyConversor convercionToObj(String jsonRes){
-//        Gson gson = new GsonBuilder()
-//                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
-//                .create();
+
         Gson gson = new Gson();
 
         System.out.println("gson: " + gson);

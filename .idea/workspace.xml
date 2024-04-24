@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17f95e27-3084-46db-9d25-c9fcac6190a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConversionRateClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConversionRateNested.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConversionRateRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CurencyConversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JsonToObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConversorDeMonedasAlura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConversorDeMonedasAlura.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConversionRateNested.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConversionRateNested.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConversionRateRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConversionRateRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JsonToObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JsonToObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +27,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
