@@ -7,7 +7,7 @@ public class Main {
         Api api1 = new Api();
         String data = api1.getData();
         CurencyConversor conversion = JsonToObj.convercionToObj(data);
-        System.out.println(conversion);
+        System.out.println("Obteniendo valores de divisas...");
         Scanner lectura = new Scanner(System.in);
         int userChoice = 0;
 
@@ -66,10 +66,10 @@ public class Main {
                 2) - Peso Argentino => Dolar
                 3) - Dolar => Real Brasileño
                 4) - Real brasileño => Dolar
-                5) - Dolar -> Peso Colombiano
-                6) - Peso Colombiano -> Dolar
-                7) - Dolar -> Boliviano Boliviano
-                8) - Boliviano Boliviano -> Dolar
+                5) - Dolar => Peso Colombiano
+                6) - Peso Colombiano => Dolar
+                7) - Dolar => Boliviano Boliviano
+                8) - Boliviano Boliviano => Dolar
                 9) - Salir
                 \s
                 Elija una opción válida:\s

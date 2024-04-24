@@ -9,11 +9,9 @@ public class JsonToObj {
 
         Gson gson = new Gson();
 
-        System.out.println("gson: " + gson);
 
         ConversionRateClass jsonToObjProcesed = gson.fromJson(jsonRes, ConversionRateClass.class);
 
-        System.out.println("JsonToObj: " + jsonToObjProcesed);
 
         return new CurencyConversor(jsonToObjProcesed);
     }
